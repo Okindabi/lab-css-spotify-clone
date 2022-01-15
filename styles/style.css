@@ -1,8 +1,57 @@
-/*
-Colors:
+/* Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF */
 
-*/
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.875;
+  margin: 0;
+}
+
+header {
+  margin: 0;
+  color: 1a1a1a;
+}
+
+body header div ul {
+  display: flex;
+  margin-left: 50%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+.navbar {
+  text-align: right;
+}
+
+header img {
+  height: 60px;
+  position: absolute;
+}
+
+.concert {
+  color: white;
+  margin: 0;
+  height: 800px;
+  background-image: url("/images/landing.jpg");
+  background-size: cover;
+}
+
+.concert div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
