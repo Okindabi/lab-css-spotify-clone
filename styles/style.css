@@ -16,6 +16,7 @@ body {
 }
 
 header {
+  display: flex;
   margin: 0;
   color: 1a1a1a;
 }
