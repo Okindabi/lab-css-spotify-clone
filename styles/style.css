@@ -8,37 +8,48 @@ body {
   background-color: #fff;
   color: #000;
   font-family: "proxima-nova", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.875;
   margin: 0;
 }
 
-header {
+/* HEADER */
+
+/* header {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+} */
+header div {
   display: flex;
   margin: 0;
   color: 1a1a1a;
+  justify-content: space-between;
+  height: 100px;
 }
-
-body header div ul {
+body header div div ul {
   display: flex;
-  margin-left: 50%;
   flex-direction: row;
   justify-content: space-between;
 }
-
+header img {
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+}
 .navbar li {
   list-style-type: none;
+  padding: 5px 15px 0px 15px;
+  font-size: 0.6em;
 }
 .navbar {
   text-align: right;
+  display: fixed;
 }
 
-header img {
-  height: 60px;
-  position: absolute;
-}
+/* CONCERT */
 
 .concert {
   color: white;
@@ -46,6 +57,12 @@ header img {
   height: 800px;
   background-image: url("/images/landing.jpg");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
 }
 
 .concert div {
@@ -55,4 +72,86 @@ header img {
   justify-content: center;
   align-items: center;
   align-content: stretch;
+}
+
+.concert-title {
+  font-size: 2em;
+}
+
+.concert div h3 {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+/* SECTION THREE */
+
+.three-items h2 {
+  text-align: center;
+}
+
+.three-items h4 {
+  color: #00b172;
+}
+
+.three-items img {
+  height: 100px;
+}
+
+.three-items-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.three-items-content div {
+  display: flex;
+  width: 400px;
+  text-align: center;
+  justify-content: space-around;
+}
+
+/* GREENBOX */
+
+.green-box div {
+  background-color: #00b172;
+  padding: 20px;
+  margin: 30px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+}
+
+.green-box h5 {
+  padding-left: 40px;
+  font-size: 1em;
+}
+
+.green-box {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+}
+
+.yeezy div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+}
+
+.app img {
+  width: 300px;
 }
